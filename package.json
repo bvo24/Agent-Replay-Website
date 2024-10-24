@@ -1,0 +1,19 @@
+{
+    "homepage": "https://bvo24.github.io/Agent-Replay-Website",
+
+    "name": "Agent-Replay-Website",
+    "version": "1.0.0",
+    "description": "A simple web app using Parcel",
+    "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+      "start": "parcel index.html", 
+      "build": "parcel build index.html" 
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "parcel": "^2.12.0"
+    }
+  }
+  
